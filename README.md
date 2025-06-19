@@ -1,10 +1,10 @@
 ---
 title: Urdu Sentiment Analyzer Chatbot
-emoji: 📊  # Changed from 🇵🇰 to a standard emoji
+emoji: 📊
 colorFrom: pink
 colorTo: purple
 sdk: gradio
-sdk_version: "4.12.0"  # Update to match your Gradio version
+sdk_version: 5.34.1
 app_file: app.py
 pinned: false
 ---
