@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 
 class UrduSentimentPredictor:
     """Lightweight predictor for production use"""
-    def __init__(self, model_path: str = "Ahmedhassan54/Nlp-chatbot/trained_model"):  # Changed default path
+    def __init__(self, model_path: str = "Ahmedhassan54/Nlp-chatbot"):  # Changed default path
         try:
             # Now only needs Hub loading (Option 1)
             self.model = TFAutoModelForSequenceClassification.from_pretrained(model_path)
